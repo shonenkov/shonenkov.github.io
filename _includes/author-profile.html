@@ -142,6 +142,14 @@
         </li>
       {% endif %}
 
+      {% if author.kaggle %}
+        <li>
+          <a href="https://kaggle.com/{{ author.kaggle }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-kaggle" aria-hidden="true"></i><span class="label">Kaggle</span>
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.stackoverflow %}
         <li>
           <a href="https://stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs" rel="nofollow noopener noreferrer">

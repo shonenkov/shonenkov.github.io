@@ -3,16 +3,24 @@
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
-
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-        {% endif %}
-      {% endfor %}
+    {% if site.author.twitter %}
+      <li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
     {% endif %}
-
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% if site.author.facebook %}
+      <li><a href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    {% endif %}
+    {% if site.author.linkedin %}
+      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li><a href="https://gitlab.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.instagram %}
+      <li><a href="https://instagram.com/{{ site.author.instagram }}"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+    {% endif %}
+    {% if site.author.kaggle %}
+      <li><a href="https://kaggle.com/{{ site.author.kaggle }}"><i class="fab fa-kaggle" aria-hidden="true"></i> Kaggle</a></li>
+    {% endif %}
   </ul>
 </div>
 
