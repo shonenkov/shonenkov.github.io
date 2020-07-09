@@ -19,10 +19,10 @@ url: "https://shonenkov.github.io"
 baseurl: ""
 repository: "shonenkov/shonenkov.github.io"
 logo: "/assets/images/gm.png"
-breadcrumbs: true
+breadcrumbs: false
 words_per_minute: 200
 search: false
-paginate: 5
+paginate:
 timezone: UTC
 
 layout: single

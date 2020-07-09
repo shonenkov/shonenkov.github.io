@@ -1,48 +1,26 @@
 ---
-title: " "
-layout: splash
 permalink: /
-date: 2016-03-23T11:48:41-04:00
+title: " "
+excerpt: ""
+author_profile: true
+layout: home
+redirect_from:
+  - /about/
+  - /about.html
 header:
   overlay_image: /assets/images/main/header.jpg
   overlay_filter: rgba(255, 255, 0, 0.05)
   caption: "Photo credit: [**@shonenkov**](https://instagram.com/shonenkov)"
-excerpt: ""
-intro: 
-  - excerpt: "Hi everyone! My name is Alex Shonenkov. It's my personal website."
-    url: "/about/"
-    btn_label: "Read More About Me"
-    btn_class: "btn--warning"
-feature_projects:
-  - image_path: /assets/images/main/projects.jpg
-    alt: "placeholder projects"
-    title: "My Projects"
-    excerpt: 'Here you can find my work'
-    url: "/projects/"
-    btn_label: "Read More"
-    btn_class: "btn--warning"
-feature_hobbies:
-  - image_path: /assets/images/main/hobbies.jpg
-    alt: "placeholder hobbies"
-    title: "Hobbies"
-    excerpt: 'Here you can find my hobbies'
-    url: "/hobbies/"
-    btn_label: "Read More"
-    btn_class: "btn--warning"
-feature_blog_posts:
-  - image_path: /assets/images/main/blog-posts.jpg
-    alt: "placeholder blog"
-    title: "Blog Posts"
-    excerpt: 'Here you can find my personal blog'
-    url: "/blog-posts/"
-    btn_label: "Read More"
-    btn_class: "btn--warning"
 ---
 
-{% include feature_row id="intro" type="center" %}
+Hi everyone! 
 
-{% include feature_row id="feature_projects" type="left" %}
+My name is Alex Shonenkov, I am NLP/CV/TS/ML/DL research engineer, kaggle notebook grandmaster (top 8). Love Data Science, Physics, Mathematics.
 
-{% include feature_row id="feature_hobbies" type="right" %}
+It is website about me, my hobbies, projects and surely personal blog in the near future :) I will add information step by step. 
 
-{% include feature_row id="feature_blog_posts" type="left" %}
+Welcome!
+
+CV
+---
+<a href="/files/shonenkov_cv.pdf"><embed src="/files/shonenkov_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="100%"/></a>
