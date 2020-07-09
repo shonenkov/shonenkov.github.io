@@ -64,7 +64,7 @@ social:
 
 author:
   avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "My awesome biography **constrained** to a sentence or two goes here."
+  bio      : ""
   location : "Russia, Adler"
   facebook : "shonenkov"
   kaggle   : "shonenkov"
@@ -92,12 +92,13 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "shonenkov"
+  twitter          :
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57194716206"
 
 
 

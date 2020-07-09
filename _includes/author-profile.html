@@ -62,6 +62,23 @@
         </li>
       {% endif %}
 
+      {% if author.scopus %}
+        <li>
+          <a href="{{ author.scopus }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+<!--            <i class="fab fa-fw fa-dribbble" aria-hidden="true"></i><span class="label">Scopus</span>-->
+            <i class="fab fa-fw" aria-hidden="true">Ss</i><span class="label">Scopus</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.kaggle %}
+        <li>
+          <a href="https://kaggle.com/{{ author.kaggle }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-kaggle" aria-hidden="true"></i><span class="label">Kaggle</span>
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.keybase %}
         <li>
           <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
@@ -138,14 +155,6 @@
         <li>
           <a href="https://gitlab.com/{{ author.gitlab }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-gitlab" aria-hidden="true"></i><span class="label">GitLab</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.kaggle %}
-        <li>
-          <a href="https://kaggle.com/{{ author.kaggle }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-kaggle" aria-hidden="true"></i><span class="label">Kaggle</span>
           </a>
         </li>
       {% endif %}
