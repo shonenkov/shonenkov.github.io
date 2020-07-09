@@ -136,3 +136,8 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# SEO Related
+google_site_verification : "rDlkvdAlNVIvPQCgepa5zIjn5KyhB2rYIukO-rp-7Zs"
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
