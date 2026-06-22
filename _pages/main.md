@@ -15,7 +15,7 @@ header:
 
 Hi everyone! 
 
-My name is Alex Shonenkov, I am NLP/CV/TS/ML/DL research engineer, kaggle notebook grandmaster (top 8). Love Data Science, Physics, Mathematics.
+My name is Alex Shonenkov, I am NLP/CV/TS/ML/DL research engineer, kaggle notebook grandmaster (top 8). Love Data Science, Physics, Mathematics xD.
 
 It is website about me, my hobbies, projects and surely personal blog in the near future :) I will add information step by step. 
 
