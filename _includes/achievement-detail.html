@@ -1,0 +1,41 @@
+<article class="achievement-detail">
+  <p class="achievement-detail__back">
+    <a href="{{ '/achievements/' | relative_url }}">← Achievements</a>
+  </p>
+
+  {% if page.image %}
+    {% if page.image contains '://' %}
+      {% assign detail_image_src = page.image %}
+    {% else %}
+      {% assign detail_image_src = page.image | relative_url %}
+    {% endif %}
+    <div class="achievement-detail__media">
+      <img
+        class="achievement-detail__image"
+        src="{{ detail_image_src }}"
+        alt=""
+        width="480"
+        height="300"
+        loading="eager">
+    </div>
+  {% endif %}
+
+  <header class="achievement-detail__header">
+    {% if page.year %}
+      <p class="achievement-detail__year">{{ page.year }}</p>
+    {% endif %}
+    <h1 class="achievement-detail__title">{{ page.title }}</h1>
+  </header>
+
+  <div class="achievement-detail__content">
+    {{ content }}
+  </div>
+
+  {% if page.links.size > 0 %}
+    <nav class="achievement-detail__links" aria-label="Related links">
+      {% for link in page.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} →</a>
+      {% endfor %}
+    </nav>
+  {% endif %}
+</article>

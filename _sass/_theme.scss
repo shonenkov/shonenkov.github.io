@@ -159,6 +159,20 @@ body {
   text-decoration: none !important;
 }
 
+.achievements-page .achievement-card,
+.achievements-page .achievement-card:hover,
+.achievements-page .achievement-card:visited,
+.achievement-detail__back a,
+.achievement-detail__links a {
+  text-decoration: none !important;
+}
+
+.achievements-page .achievement-card:hover .achievement-card__title,
+.achievement-detail__back a:hover,
+.achievement-detail__links a:hover {
+  text-decoration: underline !important;
+}
+
 .page__title,
 .page h1,
 .page h2,
@@ -240,13 +254,29 @@ html[data-theme="dark"] .theme-toggle__icon--moon,
 /* Projects page — use theme variables */
 .projects-page__eyebrow,
 .projects-page__subtitle,
-.project-card__description {
+.project-card__description,
+.achievements-page__eyebrow,
+.achievements-page__subtitle,
+.achievement-detail__content {
   color: var(--text-muted) !important;
 }
 
 .projects-page__title,
-.project-card__title {
+.project-card__title,
+.achievements-page__title,
+.achievement-card__title,
+.achievement-detail__title {
   color: var(--text) !important;
+}
+
+.achievement-card {
+  background: var(--card-bg) !important;
+  border-color: var(--card-border) !important;
+
+  &:hover {
+    background: var(--bg-muted) !important;
+    border-color: var(--border) !important;
+  }
 }
 
 .projects-page__github {

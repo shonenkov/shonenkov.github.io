@@ -26,6 +26,11 @@ search: false
 paginate:
 timezone: UTC
 
+collections:
+  achievements:
+    output: true
+    permalink: /achievements/:name/
+
 layout: single
 classes:
   - landing
@@ -47,6 +52,13 @@ defaults:
     values:
       read_time: true
       comments: false
+  # _achievements
+  - scope:
+      path: ""
+      type: achievements
+    values:
+      layout: achievement
+      author_profile: false
   # _pages
   - scope:
       path: ""

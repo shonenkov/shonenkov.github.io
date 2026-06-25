@@ -1,0 +1,28 @@
+{% assign item = include.achievement %}
+{% if item.image contains '://' %}
+  {% assign image_src = item.image %}
+{% else %}
+  {% assign image_src = item.image | relative_url %}
+{% endif %}
+
+{% if item.card_url %}
+  {% assign card_href = item.card_url %}
+  {% assign card_external = true %}
+{% else %}
+  {% assign card_href = item.url | relative_url %}
+  {% assign card_external = false %}
+{% endif %}
+
+<a
+  href="{{ card_href }}"
+  class="achievement-card"
+  {% if card_external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+  <div class="achievement-card__media">
+    <img
+      class="achievement-card__image"
+      src="{{ image_src }}"
+      alt=""
+      loading="lazy">
+  </div>
+  <h2 class="achievement-card__title">{{ item.title }}</h2>
+</a>

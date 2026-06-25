@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  <article class="page page--achievement" itemscope itemtype="https://schema.org/Article">
+    {% if page.title %}<meta itemprop="name" content="{{ page.title | escape }}">{% endif %}
+    <section class="page__content" itemprop="text">
+      {% include achievement-detail.html %}
+    </section>
+  </article>
+</div>

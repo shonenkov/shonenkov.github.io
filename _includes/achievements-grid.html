@@ -1,0 +1,18 @@
+{% assign achievements = site.achievements | sort: "order" %}
+{% assign achievement_count = achievements | size %}
+
+<section class="achievements-page">
+  <header class="achievements-page__header">
+    <p class="achievements-page__eyebrow">Achievements · {{ achievement_count }} total</p>
+    <h1 class="achievements-page__title">Rankings, awards &amp; competition wins.</h1>
+    <p class="achievements-page__subtitle">
+      Verifiable credentials — click a card for details.
+    </p>
+  </header>
+
+  <div class="achievements-grid">
+    {% for achievement in achievements %}
+      {% include achievement-card.html achievement=achievement %}
+    {% endfor %}
+  </div>
+</section>
