@@ -1,6 +1,10 @@
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-
+<script>
+(function () {
+  var saved = localStorage.getItem("theme");
+  document.documentElement.setAttribute("data-theme", saved === "light" ? "light" : "dark");
+})();
+</script>
 
 <!-- end custom head snippets -->

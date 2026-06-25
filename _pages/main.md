@@ -4,23 +4,36 @@ title: " "
 excerpt: ""
 author_profile: true
 layout: home
-redirect_from:
-  - /about/
-  - /about.html
-header:
-  overlay_image: /assets/images/main/header.jpg
-  overlay_filter: rgba(255, 255, 0, 0.05)
-  caption: "Photo credit: [**@shonenkov**](https://instagram.com/shonenkov)"
+
+[//]: # (header:)
+
+[//]: # (  overlay_image: /assets/images/main/header.jpg)
+
+[//]: # (  overlay_filter: rgba&#40;255, 255, 0, 0.05&#41;)
+
+[//]: # (  caption: "")
 ---
 
-Hi everyone! 
+Hi everyone!
 
-My name is Alex Shonenkov, I am NLP/CV/TS/ML/DL research engineer, kaggle notebook grandmaster (top 8). Love Data Science, Physics, Mathematics ...
+My name is Alex Shonenkov. I am a Data Scientist and ML Research Engineer working with NLP, computer vision, time series, and deep learning.
 
-It is website about me, my hobbies, projects and surely personal blog in the near future :) I will add information step by step. 
+I use this site as a compact professional home: selected projects, competition results, notebooks, research interests, and occasional notes.
 
-Welcome!
+{% include featured-project.html %}
 
-CV
----
-<a href="/files/shonenkov_cv.pdf"><embed src="/files/shonenkov_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="100%"/></a>
+## Start Here
+
+- [Projects](/projects/) — tools, experiments, and open-source work.
+- [Achievements](/achievements/) — competitions, rankings, awards, and milestones.
+- [Notebooks](/notebooks/) — Kaggle notebooks, tutorials, and reproducible experiments.
+- [Science](/science/) — research interests, papers, reading notes, and scientific ideas.
+- [CV](/cv/) — resume, background, and contact links.
+
+## Current Focus
+
+- Applied machine learning for real-world systems.
+- NLP, CV, time series, and multimodal models.
+- Competitions, benchmarks, and reproducible research workflows.
+
+## Recent Notes

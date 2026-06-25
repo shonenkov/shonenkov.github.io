@@ -1,0 +1,10 @@
+# Filter tags shown on the Projects page (order matters).
+# "All" is handled separately; other tags should match project tags in _data/projects.yml
+
+- All
+- Live
+- OSS
+- ML
+- NLP
+- CV
+- Data

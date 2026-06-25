@@ -1,0 +1,12 @@
+{% assign featured_projects = site.data.projects | where: "featured", true %}
+
+{% if featured_projects.size > 0 %}
+<section class="home-featured" aria-label="Featured projects">
+  <h2 class="home-featured__title">Featured Project</h2>
+  <div class="home-featured__grid">
+    {% for project in featured_projects %}
+      {% include project-card.html project=project heading="h3" %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

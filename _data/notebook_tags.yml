@@ -1,0 +1,10 @@
+# Filter tags shown on the Notebooks page (order matters).
+# "All" is handled separately; other tags should match notebook tags in _data/notebooks.yml
+
+- All
+- Kaggle
+- CV
+- NLP
+- ML
+- Data
+- Tutorial

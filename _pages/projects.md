@@ -1,13 +1,10 @@
 ---
 permalink: /projects/
-title: "My projects"
-excerpt: "My projects"
+title: "Projects"
+layout: projects
 author_profile: false
-layout: tags    
+classes:
+  - wide
 redirect_from:
-  - /projects/
   - /projects.html
 ---
-
----
-Content

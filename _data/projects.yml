@@ -1,0 +1,101 @@
+# Edit this file to add or update your projects.
+# tags must match entries in _data/project_tags.yml (except "All")
+# featured: true — show on the home page visiting card
+# image: optional logo path (no image = no logo block)
+# github_repo: optional "owner/repo" — shows GitHub stars badge (via shields.io)
+# year: optional project year badge (e.g. 2024)
+
+- title: "DeepFloyd IF"
+  url: "https://github.com/deep-floyd/IF"
+  github_repo: "deep-floyd/IF"
+  image: "/assets/images/projects/deepfloyd-if.png"
+  description: "Cascaded pixel diffusion text-to-image stack: 4.3B IF-I-XL base model, super-resolution up to 1024×1024, T5 text encoder, and SOTA photorealism — open source with Diffusers integration."
+  year: 2023
+  featured: true
+  tags:
+    - CV
+    - NLP
+    - ML
+    - OSS
+
+- title: "ruDALL-E"
+  url: "https://github.com/ai-forever/ru-dalle"
+  github_repo: "ai-forever/ru-dalle"
+  image: "/assets/images/projects/rudalle.png"
+  description: "Open-source Russian text-to-image stack from Sber AI: 1.3B Malevich (XL) encoder-decoder on 120M text-image pairs, ruCLIP cherry-picking, and Real-ESRGAN super-resolution — a DALL·E-style pipeline for Russian prompts."
+  year: 2021
+  tags:
+    - CV
+    - NLP
+    - ML
+    - OSS
+
+- title: "RUDOLPH"
+  url: "https://github.com/ai-forever/ru-dolph"
+  github_repo: "ai-forever/ru-dolph"
+  image: "/assets/images/projects/rudolph.jpg"
+  description: "Hyper-tasking Russian image–text transformer from AIRI: one model for text-to-image, classification, captioning, and visual QA — 350M to 2.7B checkpoints with unified multimodal fine-tuning."
+  year: 2022
+  tags:
+    - CV
+    - NLP
+    - ML
+    - OSS
+
+- title: "ruCLIP"
+  url: "https://github.com/ai-forever/ru-clip"
+  github_repo: "ai-forever/ru-clip"
+  image: "/assets/images/projects/ruclip.png"
+  description: "Open-source Russian CLIP: contrastive image–text encoders for zero-shot classification, similarity scoring, and caption ranking — ViT checkpoints on Hugging Face, core component of the ruDALL-E pipeline."
+  year: 2021
+  tags:
+    - NLP
+    - CV
+    - ML
+    - OSS
+
+- title: "ruDALLE Aspect Ratio"
+  url: "https://github.com/shonenkov-AI/rudalle-aspect-ratio"
+  image: "/assets/images/projects/aspect-ratio.png"
+  github_repo: "shonenkov-AI/rudalle-aspect-ratio"
+  description: "Extension for ruDALLE that generates images in arbitrary aspect ratios — wide panoramas, tall portraits, and custom dimensions beyond the default square output."
+  year: 2022
+  tags:
+    - CV
+    - ML
+    - OSS
+
+- title: "Digital Peter"
+  url: "https://github.com/ai-forever/digital_peter_aij2020"
+  image: "/assets/images/projects/digital-peter.png"
+  github_repo: "ai-forever/digital_peter_aij2020"
+  description: "AI Journey 2020 competition: line-by-line handwritten text recognition on Peter the Great's 18th-century manuscripts — expert-curated dataset, CNN baselines, seq2seq post-processing, and CER/WER leaderboards."
+  year: 2020
+  tags:
+    - CV
+    - ML
+    - OSS
+    - Data
+    - Live
+
+- title: "StackMix-OCR"
+  url: "https://github.com/ai-forever/StackMix-OCR"
+  image: "/assets/images/projects/stackmix.png"
+  github_repo: "ai-forever/StackMix-OCR"
+  description: "Handwritten text recognition with StackMix and Blot augmentations: synthetic handwritten-line generation from printed text for CTC-based OCR training on historical and Russian datasets (Bentham, HKR, IAM)."
+  year: 2020
+  tags:
+    - CV
+    - ML
+    - OSS
+
+- title: "Tuned VQ-GAN"
+  url: "https://github.com/ai-forever/tuned-vq-gan"
+  image: "/assets/images/projects/vqgan.png"
+  github_repo: "ai-forever/tuned-vq-gan"
+  description: "Fine-tuned VQ-GAN for higher-fidelity image tokenization: improved generation quality on people, faces, and text domains — part of the Sber AI visual tokenizer stack behind ruDALL-E."
+  year: 2021
+  tags:
+    - CV
+    - ML
+    - OSS

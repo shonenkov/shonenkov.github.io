@@ -1,0 +1,333 @@
+/* ==========================================================================
+   Theme: black dark (default) + light mode toggle
+   ========================================================================== */
+
+:root,
+html[data-theme="dark"] {
+  --bg: #000000;
+  --bg-elevated: #0a0a0a;
+  --bg-muted: #111111;
+  --text: #f5f5f5;
+  --text-muted: #a3a3a3;
+  --border: #262626;
+  --link: #38bdf8;
+  --link-hover: #7dd3fc;
+  --accent: #22d3ee;
+  --code-bg: #111111;
+  --footer-bg: #000000;
+  --masthead-bg: #000000;
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-border: #262626;
+}
+
+html[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-elevated: #f8fafc;
+  --bg-muted: #f1f5f9;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --border: #e2e8f0;
+  --link: #1d4ed8;
+  --link-hover: #1e40af;
+  --accent: #0891b2;
+  --code-bg: #f1f5f9;
+  --footer-bg: #f8fafc;
+  --masthead-bg: #ffffff;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.initial-content,
+#main,
+.page,
+.archive,
+.splash {
+  background-color: var(--bg) !important;
+}
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background-color: var(--masthead-bg) !important;
+}
+
+.masthead,
+.masthead a,
+.masthead .greedy-nav a,
+.masthead .site-title,
+.masthead .site-subtitle {
+  color: var(--text) !important;
+}
+
+.masthead .greedy-nav a:hover,
+.masthead a:hover {
+  color: var(--link-hover) !important;
+}
+
+.greedy-nav .hidden-links {
+  background-color: var(--masthead-bg) !important;
+  border-color: var(--border) !important;
+}
+
+.greedy-nav .hidden-links a {
+  color: var(--text) !important;
+}
+
+.page__footer {
+  background-color: var(--footer-bg) !important;
+  color: var(--text-muted) !important;
+  border-top: 1px solid var(--border);
+}
+
+.page__footer a {
+  color: var(--link) !important;
+}
+
+.sidebar {
+  color: var(--text-muted) !important;
+  opacity: 1 !important;
+}
+
+.author__urls a,
+.sidebar .author__urls li a {
+  color: var(--text-muted) !important;
+}
+
+.author__urls a:hover,
+.sidebar .author__urls li a:hover {
+  color: var(--link) !important;
+}
+
+.author__avatar img {
+  border-color: var(--border) !important;
+}
+
+.page__content,
+.archive__item-excerpt,
+.page__meta,
+.page__content p,
+.page__content li {
+  color: var(--text) !important;
+}
+
+.page__content a,
+.page a:not(.btn) {
+  color: var(--link) !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.page__content a:hover,
+.page a:not(.btn):hover {
+  color: var(--link-hover) !important;
+}
+
+.project-card,
+.project-card:hover,
+.project-card:visited,
+.project-card .project-card__title,
+.project-card .project-card__description,
+.project-card .project-card__tag {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.project-card .project-card__title {
+  color: var(--text) !important;
+}
+
+.project-card .project-card__description {
+  color: var(--text-muted) !important;
+}
+
+.science-page .science-entry__pdf {
+  text-decoration: none !important;
+}
+
+.science-page .science-entry__pdf:hover {
+  text-decoration: underline !important;
+}
+
+.science-page .science-profile,
+.science-page .science-profile:hover {
+  text-decoration: none !important;
+}
+
+.page__title,
+.page h1,
+.page h2,
+.page h3,
+.archive__item-title a {
+  color: var(--text) !important;
+}
+
+.archive__item-excerpt {
+  color: var(--text-muted) !important;
+}
+
+code,
+pre,
+.highlight {
+  background-color: var(--code-bg) !important;
+  border-color: var(--border) !important;
+}
+
+table {
+  border-color: var(--border) !important;
+}
+
+th,
+td {
+  border-color: var(--border) !important;
+  color: var(--text) !important;
+}
+
+.greedy-nav .theme-toggle {
+  margin-left: 0.35rem;
+  vertical-align: middle;
+}
+
+html[data-theme="light"] .page__hero-overlay {
+  filter: brightness(0.85);
+}
+
+.theme-toggle {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.95rem;
+  height: 2rem;
+  justify-content: center;
+  line-height: 1;
+  margin-left: 0.5rem;
+  padding: 0;
+  width: 2rem;
+  flex-shrink: 0;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+}
+
+.theme-toggle__icon--sun {
+  display: none;
+}
+
+html[data-theme="light"] .theme-toggle__icon--sun {
+  display: inline;
+}
+
+html[data-theme="light"] .theme-toggle__icon--moon {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-toggle__icon--moon,
+:root .theme-toggle__icon--moon {
+  display: inline;
+}
+
+/* Projects page — use theme variables */
+.projects-page__eyebrow,
+.projects-page__subtitle,
+.project-card__description {
+  color: var(--text-muted) !important;
+}
+
+.projects-page__title,
+.project-card__title {
+  color: var(--text) !important;
+}
+
+.projects-page__github {
+  color: #f59e0b !important;
+}
+
+.projects-filter {
+  border-color: var(--border) !important;
+  color: var(--text-muted) !important;
+
+  &.is-active {
+    background: rgba(245, 158, 11, 0.12) !important;
+    border-color: rgba(245, 158, 11, 0.45) !important;
+    color: #fbbf24 !important;
+  }
+}
+
+.project-card {
+  background: var(--card-bg) !important;
+  border-color: var(--card-border) !important;
+
+  &:hover {
+    background: var(--bg-muted) !important;
+    border-color: var(--border) !important;
+  }
+}
+
+.project-card__tag {
+  background: var(--bg-muted) !important;
+  border-color: var(--border) !important;
+  color: var(--text-muted) !important;
+}
+
+.home-featured__title {
+  color: var(--text) !important;
+}
+
+html {
+  background-color: var(--bg);
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  .masthead,
+  .greedy-nav,
+  .greedy-nav .hidden-links {
+    border-color: var(--border) !important;
+  }
+
+  .greedy-nav .visible-links a:before {
+    background: var(--link) !important;
+  }
+
+  .author__urls .svg-inline--fa,
+  .author__urls .fab,
+  .author__urls .fas,
+  .author__urls .far {
+    color: var(--text-muted) !important;
+  }
+
+  .project-card__year {
+    background: var(--bg-muted) !important;
+    border-color: var(--border) !important;
+    color: var(--text-muted) !important;
+  }
+
+  .project-card__kaggle-stat {
+    color: var(--text-muted) !important;
+  }
+
+  .projects-filter.is-active {
+    background: rgba(245, 158, 11, 0.15) !important;
+    color: #b45309 !important;
+  }
+
+  .projects-page__github {
+    color: #b45309 !important;
+  }
+
+  .projects-page__subtitle code {
+    background: var(--bg-muted) !important;
+    color: var(--text) !important;
+  }
+}

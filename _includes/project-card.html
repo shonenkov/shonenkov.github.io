@@ -1,0 +1,49 @@
+{% assign project = include.project %}
+{% assign tag_list = project.tags | join: ',' | downcase %}
+{% assign heading = include.heading | default: 'h2' %}
+
+<a
+  href="{{ project.url }}"
+  class="project-card{% if project.image %} project-card--has-image{% endif %}"
+  {% if tag_list != '' %}data-tags="{{ tag_list }}"{% endif %}
+  target="_blank"
+  rel="noopener noreferrer">
+  {% if project.image or project.year or project.github_repo %}
+    <div class="project-card__header">
+      {% if project.image %}
+        <img
+          class="project-card__logo"
+          src="{{ project.image | relative_url }}"
+          alt=""
+          width="36"
+          height="36"
+          loading="lazy">
+      {% endif %}
+      {% if project.year or project.github_repo %}
+        <div class="project-card__badges">
+          {% if project.year %}
+            <span class="project-card__year">{{ project.year }}</span>
+          {% endif %}
+          {% if project.github_repo %}
+            <span class="project-card__stars">
+              <img
+                class="project-card__stars-badge"
+                src="https://img.shields.io/github/stars/{{ project.github_repo }}?logo=github&logoColor=fbbf24&labelColor=111827&color=374151&style=flat"
+                alt="GitHub stars"
+                width="72"
+                height="22"
+                loading="lazy">
+            </span>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+  <{{ heading }} class="project-card__title">{{ project.title }}</{{ heading }}>
+  <p class="project-card__description">{{ project.description }}</p>
+  <div class="project-card__tags">
+    {% for tag in project.tags %}
+      <span class="project-card__tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+</a>

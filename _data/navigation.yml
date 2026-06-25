@@ -1,18 +1,16 @@
 # main links
 main:
-#  - title: "About me"
-#    url: /about/
-  - title: "Blog Posts"
-    url: /blog-posts/
+  - title: "Home"
+    url: /
   - title: "Projects"
     url: /projects/
-  - title: "Hobbies"
-    url: /hobbies/
-
-
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Notebooks"
+    url: /notebooks/
+  - title: "Achievements"
+    url: /achievements/
+  - title: "Science"
+    url: /science/
+  - title: "Blog"
+    url: /blog/
+  - title: "CV"
+    url: /cv/

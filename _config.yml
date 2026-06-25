@@ -10,16 +10,16 @@ plugins:
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-title: "Alex Shonenkov"
+title: "Shonenkov AI"
 locale: "en-US"
 title_separator: ""
-subtitle: "Data Scientist"
-name: "Alex Shonenkov"
+subtitle: "ML Research & Engineering"
+name: "Shonenkov AI"
 description: "Personal blog of Data Scientist (NLP, CV, ML, TS) Alex Shonenkov."
 url: "https://shonenkov.github.io"
 baseurl: ""
 repository: "shonenkov/shonenkov.github.io"
-logo: "/assets/images/gm.png"
+logo: "/assets/images/logo.png"
 breadcrumbs: false
 words_per_minute: 200
 search: false
@@ -66,13 +66,13 @@ social:
 author:
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : ""
-  location : "Russia, Adler"
-  facebook : "shonenkov"
+  location : "Abu Dhabi, UAE 🇦🇪"
+  facebook :
   kaggle   : "shonenkov"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "shonenkov@phystech.edu"
+  email            : "shonenkov@gmail.com"
   researchgate     :
   uri              :
   bitbucket        :
@@ -83,7 +83,7 @@ author:
   github           : "shonenkov"
   google_plus      :
   keybase          :
-  instagram        : "shonenkov"
+  instagram        :
   impactstory      :
   lastfm           :
   linkedin         : "shonenkov"
@@ -150,3 +150,6 @@ analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-172113653-1"
+
+after_footer_scripts:
+  - /assets/js/theme-toggle.js

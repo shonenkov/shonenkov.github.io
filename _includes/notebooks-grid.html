@@ -1,0 +1,90 @@
+{% assign notebooks = site.data.notebooks %}
+{% assign notebook_count = notebooks | size %}
+
+<section class="projects-page">
+  <header class="projects-page__header">
+    <p class="projects-page__eyebrow">Notebooks · {{ notebook_count }} total</p>
+    <h1 class="projects-page__title">Tutorials, experiments &amp; reproducible workflows.</h1>
+    <p class="projects-page__subtitle">
+      Selected Kaggle notebooks and write-ups — mostly computer vision, NLP, and training pipelines.
+      Edit <code>_data/notebooks.yml</code> to update this list.
+    </p>
+    <a class="projects-page__github" href="https://www.kaggle.com/{{ site.author.kaggle | default: 'shonenkov' }}" target="_blank" rel="noopener noreferrer">
+      Kaggle →
+    </a>
+  </header>
+
+  <div class="projects-page__toolbar">
+    <div class="projects-filters" role="tablist" aria-label="Filter notebooks by tag">
+      {% for tag in site.data.notebook_tags %}
+        <button
+          type="button"
+          class="projects-filter{% if tag == 'All' %} is-active{% endif %}"
+          data-filter="{{ tag | downcase }}"
+          role="tab"
+          aria-selected="{% if tag == 'All' %}true{% else %}false{% endif %}">
+          {{ tag }}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="projects-grid" id="notebooks-grid">
+    {% for project in notebooks %}
+      {% include notebook-card.html project=project heading="h2" %}
+    {% endfor %}
+  </div>
+
+  <p class="projects-page__empty" id="notebooks-empty" hidden>No notebooks match this filter.</p>
+</section>
+
+<script>
+(function () {
+  function formatCount(value) {
+    var number = Number(String(value).replace(/,/g, ""));
+    if (!isFinite(number)) return value;
+    return number.toLocaleString("en-US");
+  }
+
+  document.querySelectorAll("[data-format-count]").forEach(function (node) {
+    var raw = node.getAttribute("data-format-count");
+    if (!raw) return;
+    node.textContent = formatCount(raw);
+  });
+
+  var filters = document.querySelectorAll(".projects-filter");
+  var cards = document.querySelectorAll("#notebooks-grid .project-card");
+  var empty = document.getElementById("notebooks-empty");
+
+  if (!filters.length || !cards.length) return;
+
+  function applyFilter(tag) {
+    var visible = 0;
+
+    cards.forEach(function (card) {
+      var tags = (card.getAttribute("data-tags") || "").split(",");
+      var show = tag === "all" || tags.indexOf(tag) !== -1;
+      card.toggleAttribute("hidden", !show);
+      if (show) visible += 1;
+    });
+
+    if (empty) empty.toggleAttribute("hidden", visible > 0);
+  }
+
+  filters.forEach(function (button) {
+    button.addEventListener("click", function (event) {
+      event.preventDefault();
+      var tag = button.getAttribute("data-filter");
+
+      filters.forEach(function (item) {
+        item.classList.remove("is-active");
+        item.setAttribute("aria-selected", "false");
+      });
+
+      button.classList.add("is-active");
+      button.setAttribute("aria-selected", "true");
+      applyFilter(tag);
+    });
+  });
+})();
+</script>

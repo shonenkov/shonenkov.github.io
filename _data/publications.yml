@@ -1,0 +1,92 @@
+# Publications for /science/ — newest first within each year group.
+# key: optional dblp-style entry id (e.g. c2)
+# authors: comma-separated author list
+# title: paper title
+# venue: journal / conference / report line (e.g. "ICML 2023: 26363-26381")
+# url: primary landing page (proceedings, arXiv, publisher)
+# pdf: direct PDF download
+# arxiv: arXiv id (shows arXiv link if set)
+# code: source code repository
+# openreview: OpenReview page
+
+- year: 2023
+  authors: "Georgii Sergeevich Novikov, Daniel Bershatsky, Julia Gusak, Alex Shonenkov, Denis Valerievich Dimitrov, Ivan V. Oseledets"
+  title: "Few-bit Backward: Quantized Gradients of Activation Functions for Memory Footprint Reduction"
+  venue: "ICML 2023: 26363-26381"
+  pdf: "https://proceedings.mlr.press/v202/novikov23a/novikov23a.pdf"
+
+- year: 2023
+  authors: "D. D. Bakshandaeva, D. V. Dimitrov, V. S. Arkhipkin, A. V. Shonenkov, M. S. Potanin, D. K. Karachev, A. V. Kuznetsov, A. D. Voronov, A. A. Petiushko, V. F. Davydova, E. V. Tutubalina"
+  title: "Many heads but one brain: FusionBrain – a single multimodal multitask architecture and a competition"
+  venue: "Computer Optics, 2023, Vol. 47(1)"
+  pdf: "https://www.mathnet.ru/links/eeba62bc7219bf8121dafb9098bdb4e9/co1116.pdf"
+
+- year: 2022
+  authors: "Georgii S. Novikov, Daniel Bershatsky, Julia Gusak, Alex Shonenkov, Denis Dimitrov, Ivan V. Oseledets"
+  title: "Few-Bit Backward: Quantized Gradients of Activation Functions for Memory Footprint Reduction"
+  venue: "arXiv preprint (cs.CV)"
+  pdf: "https://arxiv.org/pdf/2202.00441"
+
+
+- year: 2022
+  authors: "Alex Shonenkov, Andrey Kuznetsov, Denis Dimitrov, Tatyana Shavrina, Daniil Chesakov, Anastasia Maltseva, Alena Fenogenova, Igor Pavlov, Anton Emelyanov, Sergey Markov, Daria Bakshandaeva, Vera Shybaeva, Andrey Chertok"
+  title: "RuCLIP — new models and experiments: a technical report"
+  venue: "arXiv preprint (cs.CV)"
+  pdf: "https://arxiv.org/pdf/2202.10784"
+
+- year: 2022
+  authors: "Alex Shonenkov"
+  title: "ruDALLE aspect ratio images: technical report"
+  venue: "Github preprint"
+  pdf: "https://drive.google.com/file/d/1bN1pa6h9QO_po8VKSScNxAeWzV_nl_6W/view"
+
+
+- year: 2022
+  authors: "Alex Shonenkov, Daria Bakshandaeva, Denis Dimitrov, Aleksandr Nikolich"
+  title: "Emojich - zero-shot emoji generation using Russian language: a technical report"
+  venue: "arXiv preprint (cs.CV)"
+  pdf: "https://arxiv.org/pdf/2112.02448"
+
+- year: 2021
+  authors: "Mark Potanin, Denis Dimitrov, Alex Shonenkov, Vladimir Bataev, Denis Karachev, Maxim Novopoltsev, Andrey Chertok"
+  title: "Digital Peter: New Dataset, Competition and Handwriting Recognition Methods"
+  venue: "HIP@ICDAR 2021"
+  pdf: "https://dl.acm.org/doi/epdf/10.1145/3476887.3476892"
+
+- year: 2021
+  authors: "Mark Potanin, Denis Dimitrov, Alex Shonenkov, Vladimir Bataev, Denis Karachev, Maxim Novopoltsev"
+  title: "Digital Peter: Dataset, Competition and Handwriting Recognition Methods"
+  venue: "arXiv preprint (cs.CV)"
+  pdf: "https://arxiv.org/pdf/2103.09354"
+
+- year: 2021
+  authors: "Alex Shonenkov, Denis Karachev, Maxim Novopoltsev, Mark Potanin, Denis Dimitrov"
+  title: "StackMix and Blot Augmentations for Handwritten Text Recognition"
+  venue: "arXiv preprint (cs.CV)"
+  pdf: "https://arxiv.org/pdf/2108.11667"
+
+- year: 2021
+  authors: "Daria Bakshandaeva, Denis Dimitrov, Alex Shonenkov, Mark Potanin, Vladimir Arkhipkin, Denis Karachev, Vera Davydova, Anton Voronov, Mikhail Martynov, Natalia Semenova, Mikhail Stepnov, Elena Tutubalina, Andrey Chertok, Aleksandr Petiushko"
+  title: "Many Heads but One Brain: an Overview of Fusion Brain Challenge on AI Journey 2021"
+  venue: "arXiv preprint (cs.CV)"
+  pdf: "https://arxiv.org/pdf/2111.10974"
+
+- year: 2021
+  authors: "Alex Shonenkov, Denis Karachev, Maxim Novopoltsev, Mark Potanin, Denis Dimitrov, Andrey Chertok"
+  title: "Handwritten text generation and strikethrough characters augmentation"
+  venue: "Computer Optics, 2022, Vol. 46(3)"
+  pdf: "https://computeroptics.ru/KO/PDF/KO46-3/460312.pdf"
+
+
+- year: 2018
+  authors: "A D Usachev, A V Zobnin, A V Shonenkov, A M Lipaev, V I Molotkov, O F Petrov, V E Fortov, M Y Pustyl’nik, M A Fink, M A Thoma, H M Thomas and G I Padalka"
+  title: "Influence of dust particles on the neon spectral line intensities at the uniform positive column of dc discharge at the space apparatus “Plasma Kristall-4”"
+  venue: "J. Phys.: Conf. Ser. 946 012143"
+  pdf: "https://iopscience.iop.org/article/10.1088/1742-6596/946/1/012143/pdf"
+
+- year: 2017
+  authors: "E.G. Silkis, A.S. Stankevich, A.V. Shonenkov"
+  title: "Atlas spectrum of gas discharge DVS-25 lamp in the range of 320-1100 nm"
+  venue: "DOI: 10.15826/analitika.2017.21.2.003"
+  url: "https://doi.org/10.15826/analitika.2017.21.2.003"
+  pdf: "/assets/papers/silkis2017-dvs25-atlas.pdf"

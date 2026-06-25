@@ -1,0 +1,140 @@
+# Edit this file to add or update your notebooks.
+# tags must match entries in _data/notebook_tags.yml (except "All")
+# image: optional thumbnail path (no image = no logo block)
+# github_repo: optional "owner/repo" — shows GitHub stars badge (via shields.io)
+# year: optional notebook year badge (e.g. 2024)
+# kaggle_views: optional Kaggle view count (omit for Colab / non-Kaggle notebooks)
+# kaggle_votes: optional Kaggle star count
+
+- title: "Training EfficientDet"
+  url: "https://www.kaggle.com/code/shonenkov/training-efficientdet"
+  image: "/assets/images/notebooks/training-efficientdet.png"
+  description: "Training EfficientDet for wheat head detection on the Global Wheat Detection dataset — Kaggle notebook with data prep, augmentations, and the full training loop on field images."
+  kaggle_votes: 2.7k
+  tags:
+    - CV
+    - ML
+    - Kaggle
+
+- title: "Inference EfficientDet"
+  url: "https://www.kaggle.com/code/shonenkov/inference-efficientdet"
+  image: "/assets/images/notebooks/inference-efficientdet.png"
+  description: "Inference with EfficientDet for wheat head detection on the Global Wheat Detection task — Kaggle notebook for loading a trained model and predicting bounding boxes on new field images."
+  kaggle_votes: 1.1k
+  tags:
+    - CV
+    - ML
+    - Kaggle
+
+- title: "ALASKA2 Image Steganalysis - Baseline"
+  url: "https://www.kaggle.com/code/shonenkov/train-inference-gpu-baseline"
+  image: "/assets/images/notebooks/train-inference-gpu-baseline.png"
+  description: "Detect secret data hidden within digital images — training and inference pipeline to detect hidden data in JPEG photographs, distinguishing cover images from stego images altered by J-UNIWARD, UERD, or J-MiPOD."
+  kaggle_votes: 887
+  tags:
+    - CV
+    - ML
+    - Kaggle
+
+- title: "TPU Inference: XLM-RoBERTa"
+  url: "https://www.kaggle.com/code/shonenkov/tpu-inference-super-fast-xlmroberta"
+  image: "/assets/images/notebooks/tpu-inference-xlmroberta.png"
+  description: "Fast TPU inference with XLM-RoBERTa for the Jigsaw Multilingual Toxic Comment Classification competition — classifying toxic Wikipedia talk-page comments across six languages using English-only training data."
+  kaggle_votes: 798
+  tags:
+    - NLP
+    - ML
+    - Kaggle
+
+- title: "Bayesian Optimization WBF EfficientDet"
+  url: "https://www.kaggle.com/code/shonenkov/bayesian-optimization-wbf-efficientdet"
+  image: "/assets/images/notebooks/bayesian-optimization-wbf-efficientdet.png"
+  description: "Bayesian optimization of Weighted Boxes Fusion for EfficientDet on the Global Wheat Detection competition — tuning ensemble parameters to improve wheat head detection on outdoor field images."
+  kaggle_votes: 647
+  tags:
+    - CV
+    - ML
+    - Kaggle
+
+- title: "WBF Approach for Ensemble"
+  url: "https://www.kaggle.com/code/shonenkov/wbf-approach-for-ensemble"
+  image: "/assets/images/notebooks/wbf-approach-for-ensemble.png"
+  description: "Weighted Boxes Fusion for object detection ensembling — Kaggle notebook showing how to merge bounding box predictions from multiple models into a single refined detection."
+  kaggle_votes: 607
+  tags:
+    - CV
+    - ML
+    - Kaggle
+
+- title: "OOF Evaluation Mixup EfficientDet"
+  url: "https://www.kaggle.com/code/shonenkov/oof-evaluation-mixup-efficientdet"
+  image: "/assets/images/notebooks/oof-evaluation-mixup-efficientdet.png"
+  description: "Out-of-fold evaluation with Mixup augmentation for EfficientDet on the Global Wheat Detection competition — validating wheat head detection models with blended field images and cross-fold predictions."
+  kaggle_votes: 582
+  tags:
+    - CV
+    - ML
+    - Kaggle
+
+- title: "ruDALL-E Example Generation"
+  url: "https://www.kaggle.com/code/shonenkov/rudalle-example-generation"
+  image: "/assets/images/notebooks/rudalle-example-generation.png"
+  description: "Kaggle notebook for creating images from Russian text prompts using the open-source ruDALL-E Malevich (XL) encoder-decoder stack with ruCLIP ranking and super-resolution."
+  kaggle_votes: 483
+  tags:
+    - CV
+    - NLP
+    - ML
+    - Kaggle
+
+- title: "TPU Training: XLM-RoBERTa"
+  url: "https://www.kaggle.com/code/shonenkov/tpu-training-super-fast-xlmroberta"
+  image: "/assets/images/notebooks/tpu-training-xlmroberta.png"
+  description: "XLM-RoBERTa training on fast Kaggle TPU for the Jigsaw Multilingual Toxic Comment Classification competition — fine-tuning a multilingual toxicity classifier for Wikipedia talk-page comments across six languages from English-only training data."
+  kaggle_votes: 457
+  tags:
+    - NLP
+    - ML
+    - Kaggle
+
+- title: "WBF over TTA EfficientDet"
+  url: "https://www.kaggle.com/code/shonenkov/wbf-over-tta-single-model-efficientdet"
+  image: "/assets/images/notebooks/training-efficientdet.png"
+  description: "Weighted Boxes Fusion over test-time augmentation for a single EfficientDet on the Global Wheat Detection competition — improving wheat head detection by fusing augmented predictions on outdoor field images."
+  kaggle_votes: 420
+  tags:
+    - CV
+    - ML
+    - Kaggle
+
+- title: "Merge External Data"
+  url: "https://www.kaggle.com/code/shonenkov/merge-external-data"
+  image: "/assets/images/notebooks/siim-isic.png"
+  description: "Merging datasets and deduplicating samples for the SIIM-ISIC Competition to improve malignant vs. benign melanoma classification using dermoscopic images and patient-level context"
+  kaggle_votes: 417
+  tags:
+    - CV
+    - ML
+    - Data
+    - Kaggle
+
+- title: "DeepFloyd IF 4.3B Image Generation"
+  url: "https://www.kaggle.com/code/shonenkov/deepfloyd-if-4-3b-generator-of-pictures"
+  image: "/assets/images/notebooks/deepfloyd-if-4-3b-generator.png"
+  description: "Text-to-image generation with DeepFloyd-IF — Kaggle notebook for running the 4.3B pixel diffusion model with T5 text encoding, cascaded super-resolution up to 1024×1024, and photorealistic sample outputs from prompts."
+  kaggle_votes: 292
+  tags:
+    - CV
+    - NLP
+    - ML
+    - Kaggle
+
+- title: "Bengali.AI Handwritten Grapheme Classification"
+  url: "https://www.kaggle.com/code/shonenkov/ghostnet-densenet121-super-easy-inference"
+  image: "/assets/images/notebooks/ghostnet-densenet121-inference.png"
+  description: "Inference with GhostNet and DenseNet121 for the Bengali.AI Handwritten Grapheme Classification competition — predicting grapheme root, vowel diacritic, and consonant diacritic from handwritten Bengali character images."
+  kaggle_votes: 259
+  tags:
+    - CV
+    - ML
+    - Kaggle

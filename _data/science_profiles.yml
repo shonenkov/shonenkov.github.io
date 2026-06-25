@@ -1,0 +1,14 @@
+# Scientific profiles shown on /science/
+# icon: Font Awesome classes (fab/fas)
+
+- label: dblp
+  url: "https://dblp.org/pid/287/9081.html"
+  icon: "fas fa-book"
+
+- label: Scopus
+  url: "https://www.scopus.com/authid/detail.uri?authorId=57194716206"
+  icon: "fas fa-book-open"
+
+- label: arXiv
+  url: "https://arxiv.org/search/?searchtype=author&query=Shonenkov%2C+A"
+  icon: "fas fa-file-pdf"

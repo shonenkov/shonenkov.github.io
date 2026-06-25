@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  <article class="page page--science" itemscope itemtype="https://schema.org/CollectionPage">
+    {% if page.title %}<meta itemprop="name" content="{{ page.title | escape }}">{% endif %}
+    <section class="page__content" itemprop="text">
+      {% include science-publications.html %}
+    </section>
+  </article>
+</div>

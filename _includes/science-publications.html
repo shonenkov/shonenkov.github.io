@@ -1,0 +1,60 @@
+{% assign publications = site.data.publications %}
+{% assign publication_count = publications | size %}
+{% assign prev_year = nil %}
+
+<section class="science-page">
+  <header class="science-page__header">
+    <p class="science-page__eyebrow">Science · {{ publication_count }} publication{% if publication_count != 1 %}s{% endif %}</p>
+    <h1 class="science-page__title">Publications</h1>
+    <p class="science-page__subtitle">
+      Papers and preprints in reverse chronological order.
+    </p>
+
+    {% if site.data.science_profiles.size > 0 %}
+      <nav class="science-profiles" aria-label="Scientific profiles">
+        {% for profile in site.data.science_profiles %}
+          <a
+            class="science-profile"
+            href="{{ profile.url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="{{ profile.label }}">
+            <i class="{{ profile.icon }}" aria-hidden="true"></i>
+            <span>{{ profile.label }}</span>
+          </a>
+        {% endfor %}
+      </nav>
+    {% endif %}
+  </header>
+
+  <div class="science-bibliography">
+    {% for pub in publications %}
+      {% if pub.year != prev_year %}
+        {% unless prev_year == nil %}
+          </ol>
+        {% endunless %}
+        <h2 class="science-year" id="year-{{ pub.year }}">{{ pub.year }}</h2>
+        <ol class="science-list">
+        {% assign prev_year = pub.year %}
+      {% endif %}
+
+      <li class="science-entry" id="{% if pub.key %}{{ pub.key }}{% else %}pub-{{ pub.year }}-{{ forloop.index }}{% endif %}">
+        {% if pub.pdf %}
+          <a class="science-entry__pdf" href="{{ pub.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>
+        {% else %}
+          <span class="science-entry__pdf science-entry__pdf--empty" aria-hidden="true"></span>
+        {% endif %}
+        <p class="science-entry__line">
+          <span class="science-entry__authors">{{ pub.authors }}:</span>
+          <span class="science-entry__main">
+            <strong class="science-entry__title">{{ pub.title }}</strong>
+            <span class="science-entry__venue">{{ pub.venue }}</span>
+          </span>
+        </p>
+      </li>
+    {% endfor %}
+    {% if publications.size > 0 %}
+      </ol>
+    {% endif %}
+  </div>
+</section>
