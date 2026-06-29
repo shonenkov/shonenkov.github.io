@@ -10,7 +10,5 @@ main:
     url: /achievements/
   - title: "Science"
     url: /science/
-  - title: "Blog"
-    url: /blog/
   - title: "CV"
     url: /cv/

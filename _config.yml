@@ -83,7 +83,7 @@ author:
   kaggle   : "shonenkov"
   employer         :
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=DybHyFgAAAAJ"
   email            : "shonenkov@gmail.com"
   researchgate     :
   uri              :
@@ -105,13 +105,12 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "AVShonenkov"
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57194716206"
 
 
 
@@ -165,3 +164,4 @@ analytics:
 
 after_footer_scripts:
   - /assets/js/theme-toggle.js
+  - /assets/js/card-select.js

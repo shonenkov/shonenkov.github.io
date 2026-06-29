@@ -104,6 +104,23 @@ body {
   color: var(--link) !important;
 }
 
+/* GitHub icon brand color (#171516) blends into the dark background;
+   force it to the muted text color in dark mode. */
+html[data-theme="dark"],
+:root {
+  .author__urls .fa-github,
+  .author__urls .fa-github-alt,
+  .author__urls .fa-github-square {
+    color: var(--text-muted) !important;
+  }
+
+  .author__urls a:hover .fa-github,
+  .author__urls a:hover .fa-github-alt,
+  .author__urls a:hover .fa-github-square {
+    color: var(--link) !important;
+  }
+}
+
 .author__avatar img {
   border-color: var(--border) !important;
 }
@@ -400,4 +417,16 @@ html[data-theme="light"] {
     background: var(--bg-muted) !important;
     color: var(--text) !important;
   }
+}
+
+/* Text selection — keep highlight visible in both themes
+   (theme reset hardcodes black-on-white, which is invisible on the dark bg) */
+::selection {
+  background: var(--accent);
+  color: #000;
+}
+
+::-moz-selection {
+  background: var(--accent);
+  color: #000;
 }
