@@ -162,6 +162,17 @@
   font-size: 0.9375rem;
   line-height: 1.65;
 
+  h2 {
+    color: #f3f4f6;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1.5rem 0 0.65rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
   p {
     margin: 0 0 0.85rem;
   }
@@ -173,6 +184,58 @@
   strong {
     color: #f3f4f6;
     font-weight: 600;
+  }
+
+  img {
+    border: 1px solid #374151;
+    border-radius: 0.625rem;
+    display: block;
+    margin: 0.75rem 0 0.25rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+    margin: 0.75rem 0 1rem;
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px solid #374151;
+    padding: 0.45rem 0.6rem;
+    text-align: left;
+  }
+
+  th {
+    color: #9ca3af;
+    font-weight: 600;
+  }
+
+  td {
+    color: #d1d5db;
+  }
+}
+
+.achievement-prize {
+  background: rgba(251, 191, 36, 0.08);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  border-radius: 0.75rem;
+  margin: 1.25rem 0;
+  padding: 0.85rem 1rem;
+
+  p {
+    color: #fde68a;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  strong {
+    color: #fbbf24;
+    font-weight: 700;
   }
 }
 

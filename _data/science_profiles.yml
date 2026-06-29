@@ -1,5 +1,9 @@
 # Scientific profiles shown on /science/
-# icon: Font Awesome classes (fab/fas)
+# icon: Font Awesome (fas/fab) or Academicons (ai) classes
+
+- label: Google Scholar
+  url: "https://scholar.google.com/citations?hl=en&user=DybHyFgAAAAJ"
+  icon: "ai ai-google-scholar"
 
 - label: dblp
   url: "https://dblp.org/pid/287/9081.html"
