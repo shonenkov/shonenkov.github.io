@@ -1,7 +1,8 @@
 ---
 permalink: /about/
 title: "About me"
-excerpt: "About me"
+description: "About Alex Shonenkov — Data Scientist, ML Research Engineer, Kaggle Grandmaster."
+excerpt: "About Alex Shonenkov — Data Scientist and ML Research Engineer."
 author_profile: true
 layout: home
 redirect_from:

@@ -14,12 +14,13 @@ title: "Shonenkov AI"
 locale: "en-US"
 title_separator: ""
 subtitle: "ML Research & Engineering"
-name: "Shonenkov AI"
-description: "Personal blog of Data Scientist (NLP, CV, ML, TS) Alex Shonenkov."
+name: "Alex Shonenkov"
+description: "Alex Shonenkov — Data Scientist and ML Research Engineer. Projects, publications, CV, Kaggle Grandmaster, open-source work in CV, NLP, and multimodal ML."
 url: "https://shonenkov.github.io"
 baseurl: ""
 repository: "shonenkov/shonenkov.github.io"
 logo: "/assets/images/logo.png"
+og_image: "/assets/images/bio-photo.jpg"
 breadcrumbs: false
 words_per_minute: 200
 search: false
@@ -67,15 +68,20 @@ defaults:
       layout: single
 
 social:
-  type:  # Person or Organization (defaults to Person)
-  name:  # If the user or organization name differs from the site's name
+  type: Person
+  name: Alex Shonenkov
   links:
-    - "https://twitter.com/shonenkov"
-    - "https://www.facebook.com/shonenkov"
-    - "https://instagram.com/shonenkov"
+    - "https://x.com/AVShonenkov"
+    - "https://github.com/shonenkov"
     - "https://www.linkedin.com/in/shonenkov"
+    - "https://scholar.google.com/citations?hl=en&user=DybHyFgAAAAJ"
+    - "https://www.kaggle.com/shonenkov"
+
+twitter:
+  username: AVShonenkov
 
 author:
+  name     : "Alex Shonenkov"
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : ""
   location : "Abu Dhabi, UAE 🇦🇪"

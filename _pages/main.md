@@ -1,17 +1,13 @@
 ---
 permalink: /
-title: " "
+title: "Alex Shonenkov"
+description: "Alex Shonenkov — Data Scientist and ML Research Engineer working on computer vision, NLP, multimodal models, and open-source ML."
 excerpt: ""
 author_profile: true
 layout: home
-
-[//]: # (header:)
-
-[//]: # (  overlay_image: /assets/images/main/header.jpg)
-
-[//]: # (  overlay_filter: rgba&#40;255, 255, 0, 0.05&#41;)
-
-[//]: # (  caption: "")
+sitemap:
+  priority: 1.0
+  changefreq: monthly
 ---
 
 <p class="home-bio__lead">Hi, I'm Alex Shonenkov — a Data Scientist and ML Research Engineer. I work on practical deep learning across computer vision, NLP, time series, and multimodal models, and I share a lot of what I build as open-source code and notebooks.</p>
