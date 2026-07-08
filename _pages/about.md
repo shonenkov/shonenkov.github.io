@@ -13,4 +13,8 @@ Content
 
 CV
 ---
-<a href="/files/shonenkov_cv.pdf"><embed src="/files/shonenkov_cv.pdf" style="border:1px solid black;" type="application/pdf" width="100%" height="100%"/></a>
+<iframe
+  title="Alex Shonenkov CV"
+  src="/files/shonenkov_cv.pdf#view=FitH&toolbar=0&navpanes=0"
+  style="width: 100%; height: 1180px; border: 1px solid #333; border-radius: 8px; background: #fff;"
+></iframe>

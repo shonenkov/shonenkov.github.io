@@ -1,20 +1,18 @@
 ---
 permalink: /cv/
-title: "CV"
+title: ""
 excerpt: "Resume, experience, and contact information."
 layout: single
-author_profile: true
+author_profile: false
+classes:
+  - wide
 ---
 
-Download the latest CV: [shonenkov_cv.pdf](/files/shonenkov_cv.pdf)
-
-<a href="/files/shonenkov_cv.pdf">
-  <embed src="/files/shonenkov_cv.pdf" style="border: 1px solid #333; min-height: 900px;" type="application/pdf" width="100%" height="900" />
-</a>
-
-## Quick Links
-
-- [GitHub](https://github.com/shonenkov)
-- [Kaggle](https://www.kaggle.com/shonenkov)
-- [LinkedIn](https://www.linkedin.com/in/shonenkov)
-- [Email](mailto:shonenkov@phystech.edu)
+<div class="cv-viewer">
+  <a class="cv-viewer__pdf" href="/files/shonenkov_cv.pdf" download>PDF</a>
+  <iframe
+    class="cv-viewer__frame"
+    title="Alex Shonenkov CV"
+    src="/files/shonenkov_cv.pdf#view=FitH&toolbar=0&navpanes=0"
+  ></iframe>
+</div>

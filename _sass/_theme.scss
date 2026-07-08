@@ -176,6 +176,39 @@ html[data-theme="dark"],
   text-decoration: none !important;
 }
 
+.cv-viewer {
+  margin-top: 0.5rem;
+}
+
+.cv-viewer__pdf {
+  color: #93c5fd !important;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.45;
+  margin: 0 1rem 0.25rem auto;
+  text-align: right;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  width: max-content;
+
+  &:hover {
+    color: #bfdbfe !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px;
+  }
+}
+
+.cv-viewer__frame {
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  display: block;
+  height: 1180px;
+  width: 100%;
+}
+
 .achievements-page .achievement-card,
 .achievements-page .achievement-card:hover,
 .achievements-page .achievement-card:visited,
@@ -416,6 +449,14 @@ html[data-theme="light"] {
   .projects-page__subtitle code {
     background: var(--bg-muted) !important;
     color: var(--text) !important;
+  }
+
+  .cv-viewer__pdf {
+    color: #2563eb !important;
+
+    &:hover {
+      color: #1d4ed8 !important;
+    }
   }
 }
 
