@@ -1,6 +1,6 @@
-
-
-0. serve locally:
+serve locally:
 ```
-bundle exec jekyll serve --trace
+export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
+bundle install
+bundle exec jekyll serve
 ```
