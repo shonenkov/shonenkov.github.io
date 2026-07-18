@@ -16,7 +16,7 @@ sitemap:
 
 My work sits between research and engineering: designing experiments, training models, building reproducible pipelines, and turning promising ideas into tools, notebooks, demos, or production ML systems that other people can actually use.
 
-Over the past 10+ years I've worked across computer vision, NLP, OCR, time series, multimodal learning, and text-to-image generation. My background includes large-scale distributed training, data pipelines, model evaluation, inference workflows, and open-source releases such as DeepFloyd IF, ruDALL-E, ruCLIP, Digital Peter, and StackMix-OCR.
+Over the past 10+ years I've worked across computer vision, NLP (Natural Language Processing), OCR, time series, multimodal learning, and text-to-image generation. My background includes large-scale distributed training, data pipelines, model evaluation, inference workflows, and open-source releases such as DeepFloyd IF, ruDALL-E, ruCLIP, Digital Peter, and StackMix-OCR.
 
 I use Python and PyTorch as my main tools, with experience in ML infrastructure, high-performance training, and systems-level optimization with Rust and Maturin. I'm also a Kaggle Grandmaster, with practical experience from competitions, public notebooks, and applied deep learning research published at venues including ICML, ICDAR, and Computer Optics.
 

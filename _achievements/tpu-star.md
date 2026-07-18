@@ -10,8 +10,6 @@ links:
     url: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
   - label: Award announcement
     url: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification/discussion/171206"
-  - label: TPU-Star toolkit
-    url: "https://github.com/shonenkov/TPU-Star"
 ---
 
 **TPU Star** recipient at the [Jigsaw Multilingual Toxic Comment Classification](https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification) competition (2020).
