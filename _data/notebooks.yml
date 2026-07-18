@@ -12,9 +12,7 @@
   description: "Training EfficientDet for wheat head detection on the Global Wheat Detection dataset — Kaggle notebook with data prep, augmentations, and the full training loop on field images."
   kaggle_votes: 2.7k
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision
 
 - title: "Inference EfficientDet"
   url: "https://www.kaggle.com/code/shonenkov/inference-efficientdet"
@@ -22,9 +20,7 @@
   description: "Inference with EfficientDet for wheat head detection on the Global Wheat Detection task — Kaggle notebook for loading a trained model and predicting bounding boxes on new field images."
   kaggle_votes: 1.1k
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision
 
 - title: "ALASKA2 Image Steganalysis - Baseline"
   url: "https://www.kaggle.com/code/shonenkov/train-inference-gpu-baseline"
@@ -32,9 +28,7 @@
   description: "Detect secret data hidden within digital images — training and inference pipeline to detect hidden data in JPEG photographs, distinguishing cover images from stego images altered by J-UNIWARD, UERD, or J-MiPOD."
   kaggle_votes: 887
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision
 
 - title: "TPU Inference: XLM-RoBERTa"
   url: "https://www.kaggle.com/code/shonenkov/tpu-inference-super-fast-xlmroberta"
@@ -43,8 +37,7 @@
   kaggle_votes: 798
   tags:
     - NLP
-    - ML
-    - Kaggle
+    - TPU
 
 - title: "Bayesian Optimization WBF EfficientDet"
   url: "https://www.kaggle.com/code/shonenkov/bayesian-optimization-wbf-efficientdet"
@@ -52,9 +45,7 @@
   description: "Bayesian optimization of Weighted Boxes Fusion for EfficientDet on the Global Wheat Detection competition — tuning ensemble parameters to improve wheat head detection on outdoor field images."
   kaggle_votes: 647
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision
 
 - title: "WBF Approach for Ensemble"
   url: "https://www.kaggle.com/code/shonenkov/wbf-approach-for-ensemble"
@@ -62,9 +53,7 @@
   description: "Weighted Boxes Fusion for object detection ensembling — Kaggle notebook showing how to merge bounding box predictions from multiple models into a single refined detection."
   kaggle_votes: 607
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision
 
 - title: "OOF Evaluation Mixup EfficientDet"
   url: "https://www.kaggle.com/code/shonenkov/oof-evaluation-mixup-efficientdet"
@@ -72,9 +61,7 @@
   description: "Out-of-fold evaluation with Mixup augmentation for EfficientDet on the Global Wheat Detection competition — validating wheat head detection models with blended field images and cross-fold predictions."
   kaggle_votes: 582
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision
 
 - title: "ruDALL-E Example Generation"
   url: "https://www.kaggle.com/code/shonenkov/rudalle-example-generation"
@@ -82,10 +69,9 @@
   description: "Kaggle notebook for creating images from Russian text prompts using the open-source ruDALL-E Malevich (XL) encoder-decoder stack with ruCLIP ranking and super-resolution."
   kaggle_votes: 483
   tags:
-    - CV
+    - Computer Vision
+    - GenAI
     - NLP
-    - ML
-    - Kaggle
 
 - title: "TPU Training: XLM-RoBERTa"
   url: "https://www.kaggle.com/code/shonenkov/tpu-training-super-fast-xlmroberta"
@@ -94,8 +80,7 @@
   kaggle_votes: 457
   tags:
     - NLP
-    - ML
-    - Kaggle
+    - TPU
 
 - title: "WBF over TTA EfficientDet"
   url: "https://www.kaggle.com/code/shonenkov/wbf-over-tta-single-model-efficientdet"
@@ -103,9 +88,7 @@
   description: "Weighted Boxes Fusion over test-time augmentation for a single EfficientDet on the Global Wheat Detection competition — improving wheat head detection by fusing augmented predictions on outdoor field images."
   kaggle_votes: 420
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision
 
 - title: "Merge External Data"
   url: "https://www.kaggle.com/code/shonenkov/merge-external-data"
@@ -113,10 +96,7 @@
   description: "Merging datasets and deduplicating samples for the SIIM-ISIC Competition to improve malignant vs. benign melanoma classification using dermoscopic images and patient-level context"
   kaggle_votes: 417
   tags:
-    - CV
-    - ML
     - Data
-    - Kaggle
 
 - title: "DeepFloyd IF 4.3B Image Generation"
   url: "https://www.kaggle.com/code/shonenkov/deepfloyd-if-4-3b-generator-of-pictures"
@@ -124,10 +104,9 @@
   description: "Text-to-image generation with DeepFloyd-IF — Kaggle notebook for running the 4.3B pixel diffusion model with T5 text encoding, cascaded super-resolution up to 1024×1024, and photorealistic sample outputs from prompts."
   kaggle_votes: 292
   tags:
-    - CV
+    - GenAI
+    - Computer Vision
     - NLP
-    - ML
-    - Kaggle
 
 - title: "Bengali.AI Handwritten Grapheme Classification"
   url: "https://www.kaggle.com/code/shonenkov/ghostnet-densenet121-super-easy-inference"
@@ -135,6 +114,4 @@
   description: "Inference with GhostNet and DenseNet121 for the Bengali.AI Handwritten Grapheme Classification competition — predicting grapheme root, vowel diacritic, and consonant diacritic from handwritten Bengali character images."
   kaggle_votes: 259
   tags:
-    - CV
-    - ML
-    - Kaggle
+    - Computer Vision

@@ -2,9 +2,8 @@
 # "All" is handled separately; other tags should match notebook tags in _data/notebooks.yml
 
 - All
-- Kaggle
-- CV
+- Computer Vision
 - NLP
-- ML
+- GenAI
 - Data
-- Tutorial
+- TPU

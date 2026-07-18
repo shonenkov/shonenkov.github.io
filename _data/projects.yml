@@ -13,10 +13,8 @@
   year: 2023
   featured: true
   tags:
-    - CV
-    - NLP
-    - ML
-    - OSS
+    - GenAI
+    - Computer Vision
 
 - title: "ruDALL-E"
   url: "https://github.com/ai-forever/ru-dalle"
@@ -25,10 +23,8 @@
   description: "Open-source Russian text-to-image stack from Sber AI: 1.3B Malevich (XL) encoder-decoder on 120M text-image pairs, ruCLIP cherry-picking, and Real-ESRGAN super-resolution — a DALL·E-style pipeline for Russian prompts."
   year: 2021
   tags:
-    - CV
-    - NLP
-    - ML
-    - OSS
+    - GenAI
+    - Computer Vision
 
 - title: "RUDOLPH"
   url: "https://github.com/ai-forever/ru-dolph"
@@ -37,10 +33,9 @@
   description: "Hyper-tasking Russian image–text transformer from AIRI: one model for text-to-image, classification, captioning, and visual QA — 350M to 2.7B checkpoints with unified multimodal fine-tuning."
   year: 2022
   tags:
-    - CV
-    - NLP
-    - ML
-    - OSS
+    - GenAI
+    - LLM
+    - Computer Vision
 
 - title: "ruCLIP"
   url: "https://github.com/ai-forever/ru-clip"
@@ -49,10 +44,8 @@
   description: "Open-source Russian CLIP: contrastive image–text encoders for zero-shot classification, similarity scoring, and caption ranking — ViT checkpoints on Hugging Face, core component of the ruDALL-E pipeline."
   year: 2021
   tags:
-    - NLP
-    - CV
-    - ML
-    - OSS
+    - LLM
+    - Computer Vision
 
 - title: "ruDALLE Aspect Ratio"
   url: "https://github.com/shonenkov-AI/rudalle-aspect-ratio"
@@ -61,9 +54,8 @@
   description: "Extension for ruDALLE that generates images in arbitrary aspect ratios — wide panoramas, tall portraits, and custom dimensions beyond the default square output."
   year: 2022
   tags:
-    - CV
-    - ML
-    - OSS
+    - GenAI
+    - Computer Vision
 
 - title: "Digital Peter"
   url: "https://github.com/ai-forever/digital_peter_aij2020"
@@ -72,11 +64,8 @@
   description: "AI Journey 2020 competition: line-by-line handwritten text recognition on Peter the Great's 18th-century manuscripts — expert-curated dataset, CNN baselines, seq2seq post-processing, and CER/WER leaderboards."
   year: 2020
   tags:
-    - CV
-    - ML
-    - OSS
+    - Computer Vision
     - Data
-    - Live
 
 - title: "StackMix-OCR"
   url: "https://github.com/ai-forever/StackMix-OCR"
@@ -85,9 +74,7 @@
   description: "Handwritten text recognition with StackMix and Blot augmentations: synthetic handwritten-line generation from printed text for CTC-based OCR training on historical and Russian datasets (Bentham, HKR, IAM)."
   year: 2020
   tags:
-    - CV
-    - ML
-    - OSS
+    - Computer Vision
 
 - title: "Tuned VQ-GAN"
   url: "https://github.com/ai-forever/tuned-vq-gan"
@@ -96,6 +83,4 @@
   description: "Fine-tuned VQ-GAN for higher-fidelity image tokenization: improved generation quality on people, faces, and text domains — part of the Sber AI visual tokenizer stack behind ruDALL-E."
   year: 2021
   tags:
-    - CV
-    - ML
-    - OSS
+    - Computer Vision

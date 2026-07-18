@@ -2,9 +2,7 @@
 # "All" is handled separately; other tags should match project tags in _data/projects.yml
 
 - All
-- Live
-- OSS
-- ML
-- NLP
-- CV
+- GenAI
+- LLM
+- Computer Vision
 - Data
