@@ -11,6 +11,7 @@
   image: "/assets/images/notebooks/training-efficientdet.png"
   description: "Training EfficientDet for wheat head detection on the Global Wheat Detection dataset — Kaggle notebook with data prep, augmentations, and the full training loop on field images."
   kaggle_votes: 2.7k
+  featured: true
   tags:
     - Computer Vision
 
@@ -35,6 +36,7 @@
   image: "/assets/images/notebooks/tpu-inference-xlmroberta.png"
   description: "Fast TPU inference with XLM-RoBERTa for the Jigsaw Multilingual Toxic Comment Classification competition — classifying toxic Wikipedia talk-page comments across six languages using English-only training data."
   kaggle_votes: 798
+  featured: true
   tags:
     - NLP
     - TPU

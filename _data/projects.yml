@@ -22,6 +22,7 @@
   image: "/assets/images/projects/rudalle.png"
   description: "Open-source Russian text-to-image stack from Sber AI: 1.3B Malevich (XL) encoder-decoder on 120M text-image pairs, ruCLIP cherry-picking, and Real-ESRGAN super-resolution — a DALL·E-style pipeline for Russian prompts."
   year: 2021
+  featured: true
   tags:
     - GenAI
     - Computer Vision
